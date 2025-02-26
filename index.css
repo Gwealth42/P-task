@@ -1,0 +1,126 @@
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;  
+  justify-content: center;
+}
+/* ul{
+   display: flex;
+    gap: 10px;
+} */
+ /* .nav-list{
+    display: flex; */
+    /* margin: 0;
+    padding: 0;
+    width: 100%; */
+ /* } */
+/* ul li{
+   list-style: none;
+   text-align: center;
+   padding: 15px;
+} 
+ul li a{
+    text-decoration: none;
+    color: #3d4f60;
+    font-weight: 600;
+} 
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+} 
+ .menu-toggle{
+    display: none;
+}
+.menu-icon{
+    display: flex ;
+    flex-direction: column; 
+    cursor: pointer;
+}
+.bar{
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+}
+/* * .Sign{ */ 
+    /* border: 1px solid white;
+    border-radius: 12px;
+    color: #3d4f60;
+    text-align: center;
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 16px; */
+/* }
+/* .anaccount{ */
+/* background-color:#122231;
+border: 1px solid #122231;
+border-radius: 12px;
+color: white;
+text-align: cente
+padding: 5px; */
+/* }
+@media only screen and(max-width:768px){
+    .menu-icon{
+        display: flex;
+    }
+    .nav-list{
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        display: none;
+    }
+    .menu-toggle:checked,.menu-icon,.nav-list{
+        display: flex;
+    }
+    .nav-list li{
+        padding: 15px;
+        border-top: 1px solid #444;
+    }
+}
+    /* .nav-bar{
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 12px 20px; */
+ */
+ .logo{
+    width: 40%;
+ }
+ /* .menu{
+    display: flex;
+ }
+ .menu li{
+    padding-left: 3px;
+    padding-bottom: 20px;
+ }
+ .menu li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: 0.15s ease-in-out;
+ } */
+ <header>
+ <nav>
+     <ul class="nav-bar">
+         <li><a href="#"><img src="assets/image/piggyvest 3.jpg" width="20%" alt=""></a></li>
+         <li><a href="#">Save</a></li>
+         <li><a href="#">Invest</a></li>
+         <li><a href="#">Stories</a></li>
+         <li><a href="#">FAQs</a></li>
+         <li><a href="#">Resources</a></li>
+          <div class="Sign">Sign in</div><br>
+ <div class="acct-btn">Create an account</div>
+ <input type="checkbox" id="check">
+<label for="seen" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+ <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+     </ul>
+ <nav>
+ </header>
