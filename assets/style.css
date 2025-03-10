@@ -707,20 +707,29 @@ margin-top: 80px;
 /* ===MEDIA QUERY */
 @media only screen and (max-width:980px){
   .container{
-    /* display: block;  */
+    display: block; 
     /* justify-content: center;
     align-items: center;  */
-    width: 100%;
+    width: 50%;
     margin: auto;
   }
   .header-nav img{
     margin-left: 20px;
   }
   .signin-div{
-    margin-right: 20px;
+    margin-right: 50px;
   } 
+  .Signin{
+    display: none;
+  }
   .navbar a {
     display: none;
+  }
+  .home-page{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
   }
    .home-content{
     /* margin-left: 200px; */
@@ -729,30 +738,36 @@ margin-top: 80px;
     align-items: center;
     margin: auto;
     text-align: center;
-    /* margin-right: 50px; */
+    margin-left: 50px;
     margin-bottom: 100px;
   } 
-  .home-page{
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
+  .imgs{
+    margin-bottom: 120px;
+    margin: auto;
+    margin-left: 70px;
+      }
   .security-lock{
     display: block;
-    margin-left: 100px;
-    justify-content: center;
+      justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left: 320px;
   }
-  .imgs{
-margin-bottom: 120px;
-  }
+  .content h3 {
+   margin-left: 300px;
+  } 
+  .content p {
+    margin-left: 300px;
+   } 
   .Writeup{
     display: block;
     width: 50%;
     margin: auto;
   }
+  .back-container{
+    width: 100vh;
+  }
   .featured-images{
+    width: 50%;
    flex-wrap: wrap;
   }
   .bigger-div{
@@ -761,32 +776,32 @@ margin-bottom: 120px;
 .parent-div{
   flex-wrap: wrap;
 }
- .iframe{
+.best-saver h1{
+   margin-left: 70px;
+}
+.best-saver p{
+  margin-left: 70px;
+}
+ /* .iframe{
   width: 100vh;
   height: 100vh;
-} 
+}  */
 .white-bgrd{
-  width: 100%;
-  /* height: 100%; */
+  width: 100vh;
+  margin: auto;
 }
 .purple-bgrd{
   margin-left: 20px;
   width: 100%;
   height: 60%;
+  margin: auto;
   position: relative;
 }
 .purple-bgrd h1{
   text-align: center;
-  /* margin-left:200px ; */
-  /* padding-bottom: 40px; */
 }
 .purple-bgrd p{
   text-align: center;
-  /* margin-left:280px; */
-  /* padding-bottom: 40px; */
-  /* text-align: center; */
-  /* align-items: center; */
-  /* font-size: 18px; */
   font-size: 19px;
     font-family: "Jakarta Sans", serif;
 }
@@ -803,12 +818,14 @@ margin-bottom: 120px;
   margin-left: 10px;
 }
 .learnabout-image{
-  /* all: unset; */
  max-width: 50%;
   position: relative;
   bottom: 0;
   margin-left: 20px;
   height: 10%;
+}
+.line{
+  width: 70%;
 }
 }
 
